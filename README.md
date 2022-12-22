@@ -12,8 +12,8 @@ AWS CodeBuild is a fully managed build service that compiles source code, runs t
 
 Here are a few examples of when you might want to use CodeBuild in your pipeline:
 
-    If you have a multi-language codebase and need to build and package your code in a variety of languages.
-    If you want to run automated tests as part of your build process to ensure that your code is working correctly before deploying it.
-    If you need to create a deployable package (such as a JAR file, WAR file, or Docker image) as part of your build process.
+If you have a multi-language codebase and need to build and package your code in a variety of languages.
+If you want to run automated tests as part of your build process to ensure that your code is working correctly before deploying it.
+If you need to create a deployable package (such as a JAR file, WAR file, or Docker image) as part of your build process.
 
-On the other hand, you might want to skip the CodeBuild stage if you don't need to build or package your code before deploying it. For example, if you're deploying a static website that consists of HTML, CSS, and JavaScript files, you might not need to use CodeBuild since these files are ready to be deployed as-is. Ultimately, the decision to use CodeBuild in your pipeline will depend on the specific requirements of your project. 
+On the other hand, you might want to skip the CodeBuild stage if you don't need to build or package your code before deploying it. For example, if you're deploying a static website that consists of HTML, CSS, and JavaScript files, you might not need to use CodeBuild since these files are ready to be deployed as-is. Ultimately, the decision to use CodeBuild in your pipeline will depend on the specific requirements of your project.
